@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#root{
+  margin: 100px 30px;
+}
+.main_app{
+  padding-left: 100px;
+  background-color: aquamarine;
+  padding: 40px 250px;
+}
+.main_app button{
+  font-size: 24px;
+  padding: 10px 30px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  display: inline-block;
+}
+.main_app h3{
+  font-size: 28px;
+  padding: 10px;
+  color: goldenrod;
+  margin-left: 58px;
+}
+.main_pass{
+  margin-left: 670px;
+  margin-top: -140px;
+}
+.main_pass input{
+  padding: 18px 25px;
+  border-radius: 9px;
+  border: 1px solid black;
+  font-size: 15px;
+}
+.main_pass button{
+  padding: 15px 25px;
+  border-radius: 9px;
+  border: 1px solid blueviolet;
+  margin-left: 10px;
+  background: blueviolet;
+  color: white;
+  font-size: 16px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.main_pass button
