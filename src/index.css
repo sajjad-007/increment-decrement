@@ -9,7 +9,9 @@
 .main_app{
   padding-left: 100px;
   background-color: aquamarine;
-  padding: 40px 250px;
+  padding: 50px 184px;
+  /* width: 350px;
+  text-align: center; */
 }
 .main_app button{
   font-size: 24px;
@@ -19,6 +21,7 @@
   border: none;
   border-radius: 8px;
   display: inline-block;
+  cursor: pointer;
 }
 .main_app h3{
   font-size: 28px;
@@ -28,7 +31,7 @@
 }
 .main_pass{
   margin-left: 670px;
-  margin-top: -140px;
+  margin-top: -238px;
 }
 .main_pass input{
   padding: 18px 25px;
@@ -47,4 +50,21 @@
   text-transform: capitalize;
   cursor: pointer;
 }
-.main_pass button
+.app_h2{
+  padding-bottom: 28px;
+  color: rgb(15, 19, 234);
+}
+.pass_h2{
+  padding-bottom: 28px;
+  color: rgb(15, 19, 234);
+}
+.main_app p{
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.hidden{
+  opacity: .3;
+  cursor: not-allowed;
+}
